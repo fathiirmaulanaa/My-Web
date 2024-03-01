@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 
 :root {
-  --primaryTextColor: #232e35;
-  --secondaryTextColor: #656d72;
+  --primaryTextColor: #1e282e;
+  --secondaryTextColor: #5c6164;
 
   --bordercolor: #f1f1f1;
   --linecolor: #d9d9d9;
@@ -11,8 +11,8 @@
   --secondarybackgroundcolor: #fbfbfb;
   --thirdbackgroundcolor: #f5f3fe;
 
-  --primaryiconcolor: #7e74f1;
-  --primaryiconcolorhover: #5d51e8;
+  --primaryiconcolor: #7481ff;
+  --primaryiconcolorhover: #001aff;
 
   --sectionpadding: 6rem 0;
 
