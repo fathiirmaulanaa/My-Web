@@ -124,12 +124,11 @@ link {
 }
 
 .nav {
-  background-color: var(--secondarybackgroundcolor);
   display: flex;
   font-size: 20px;
   font-weight: 600;
   justify-content: space-between;
-  padding: 1.7rem 6rem;
+  padding: 1.7rem 0;
 }
 
 .nav ul {
@@ -176,7 +175,7 @@ nav ul li a {
 }
 
 #hero {
-  height: 550px;
+  height: 700px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -193,7 +192,7 @@ nav ul li a {
 }
 
 .hero-right img {
-  width: 67%;
+  width: 75%;
   border-radius: 100%;
   display: block;
 }
