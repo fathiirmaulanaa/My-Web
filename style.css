@@ -134,11 +134,12 @@ link {
 .nav ul {
   list-style: none;
   display: flex;
-  gap: 3rem;
+  gap: 2.7rem;
 }
 
 .logo {
   display: flex;
+  position: static;
   align-items: center;
   font-weight: 777;
   font-size: 2rem;
@@ -175,7 +176,7 @@ nav ul li a {
 }
 
 #hero {
-  height: 700px;
+  height: 725px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
