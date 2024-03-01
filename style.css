@@ -14,6 +14,8 @@
   --primaryiconcolor: #007aec;
   --primaryiconcolorhover: #0012af;
 
+  --warnabaru: #3e3f40;
+
   --sectionpadding: 6rem 0;
 
   --itemborderradius: 0.7rem;
@@ -70,12 +72,18 @@ a {
   }
 }
 
+link {
+  display: none;
+}
+
 .btn {
   padding: 1rem 1.5rem;
   background: white;
   border: 1.5px solid var(--bordercolor);
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  font-size: 17px;
+  font-weight: 550;
 }
 
 .btn:hover {
@@ -116,9 +124,12 @@ a {
 }
 
 .nav {
+  background-color: var(--secondarybackgroundcolor);
   display: flex;
+  font-size: 20px;
+  font-weight: 600;
   justify-content: space-between;
-  padding: 2rem 0;
+  padding: 1.7rem 6rem;
 }
 
 .nav ul {
@@ -130,7 +141,7 @@ a {
 .logo {
   display: flex;
   align-items: center;
-  font-weight: 700;
+  font-weight: 777;
   font-size: 2rem;
 }
 
@@ -178,7 +189,7 @@ nav ul li a {
 }
 
 .hero-name span {
-  color: var(--primaryiconcolor);
+  color: #c0c0c0;
 }
 
 .hero-right img {
@@ -227,7 +238,7 @@ nav ul li a {
 }
 
 .service-icon svg {
-  fill: var(--primaryiconcolor);
+  fill: #3e3f40;
 }
 
 #skills {
