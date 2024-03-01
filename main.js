@@ -4,7 +4,3 @@ window.onBeforeUnload = () => {
     form.reset();
   }
 };
-
-function myFunction() {
-  alert(fathir - web.vercel.app);
-}
