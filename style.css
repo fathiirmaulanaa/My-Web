@@ -165,7 +165,7 @@ nav ul li a {
 }
 
 #hero {
-  height: 720px;
+  height: 550px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
